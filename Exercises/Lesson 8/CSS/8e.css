@@ -1,0 +1,40 @@
+p {
+  font-family: Arial;
+  font-size: 26px;;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+input {
+  display: block;
+  background-color:rgb(235, 235, 235);
+  border-style: none;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  width: 230px;
+}
+
+button{
+  margin-top: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.request-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.request-button:hover {
+  opacity: 0.8;
+}
+
+.scheduale-button {
+  border: none;
+  cursor: pointer;
+}

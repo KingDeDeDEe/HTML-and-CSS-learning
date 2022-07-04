@@ -1,0 +1,31 @@
+button {
+  background-color: rgb(57, 117, 233);
+  color: white;
+  border: none;
+  padding: 10px 100px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight:bold;
+  transition: box-shadow 0.15s;
+}
+
+button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.Email {
+  display: block;
+  width: 227px;
+}
+
+.Name {
+  width: 100px;
+}
