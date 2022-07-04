@@ -1,0 +1,17 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 5px 10px 10px;
+  color: rgb(190,190,190);
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+div {
+  padding: 10px 10px;
+  max-width: 400px;
+  background-color: rgb(35,35,35);
+}
