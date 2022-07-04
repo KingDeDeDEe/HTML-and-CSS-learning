@@ -1,0 +1,30 @@
+div {
+  display: flex;
+  background-color: rgb(99,72,149);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 60px;
+}
+
+input {
+  flex:1;
+  margin: 10px 5px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 15px;
+  max-width: 1000px;
+}
+
+button {
+  color: white;
+  border-color: white;
+  background-color: rgb(99,72,149);
+  border-width: 1px;
+  margin: 10px 10px 10px 55px;
+  padding: 7px 17px;
+}

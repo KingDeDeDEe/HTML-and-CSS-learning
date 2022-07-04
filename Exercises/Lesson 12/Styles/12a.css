@@ -1,0 +1,14 @@
+.flexbox {
+  display: flex;
+  
+}
+
+.pink {
+  background-color: pink;
+  width: 70px;
+}
+
+.blue {
+  background-color: lightskyblue;
+  width: 200px;
+}
