@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  max-width: 550px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 5px 0px;
+}
+
+.user-p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.handle-p {
+  display: inline-block;
+  color: gray;
+}
+
+.link-container {
+  display: flex;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 18px;
+  margin-top: 15px;
+}
+
+.gray {
+  background-color: lightgray;
+  width: 110px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.link-text {
+  padding: 10px;
+  flex: 1;
+}
+
+.link-p {
+  color: gray;
+  margin-bottom: 10px;
+}

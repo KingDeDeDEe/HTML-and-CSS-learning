@@ -1,0 +1,61 @@
+.inbox {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+p {
+  font-family: Arial;
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+.inbox-p {
+  color: rgb(150, 150, 150);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+
+.notif {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  align-items: top;
+}
+
+.text {
+  flex: 1;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.time-p {
+  display: inline-block;
+  color: rgb(151, 151, 151);
+  font-weight: bold;
+}
+
+.subtext-p {
+  font-weight: 700;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
