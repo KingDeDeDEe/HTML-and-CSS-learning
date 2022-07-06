@@ -1,0 +1,15 @@
+body {
+  height: 3000px;
+}
+
+button {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 20px;
+}
