@@ -1,0 +1,38 @@
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-sidebar {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 100px;
+  color: white;
+  background-color: green;
+}
+
+.overlay {
+  display: flex;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  color: black;
+  width: 300px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+h2, p {
+  margin: 0px 0px 10px;
+}
